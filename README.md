@@ -28,7 +28,7 @@ Step6: $ conda install -c bioconda cd-hit
 
 ## Execution
        $ cd provean-1.1.5/bin 
-       $ ./provean.sh -q /path/example/P04637.fasta -v /path/example/P04637.var --save_supporting_set /path/example/P04637.sss
+       $ ./provean.sh --num_threads 8 -q /path/example/P04637.fasta -v /path/example/P04637.var --save_supporting_set /path/example/P04637.sss
 
 ## Example
  ### PROVEAN v1.1 output ###
