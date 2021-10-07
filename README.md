@@ -21,7 +21,7 @@ Step6: $ conda install -c bioconda cd-hit
 ## Unpack distribution,run configure,compile and install
        $ tar zxvf provean-1.1.5.tar.gz
        $ cd provean-1.1.5
-       $ ./configure PSIBLAST= /path/ncbi-blast-2.4.0+/bin/psiblast CDHIT=/path/cd-hit-v4.8.1-2019-0228 BLASTDBCMD=/path/ncbi-blast-2.4.0+/bin/blastdbcmd BLAST_DB=/path/ncbi_db/nr --prefix=/path/provean-1.1.5/
+       $ ./configure PSIBLAST= /path/ncbi-blast-2.4.0+/bin/psiblast CDHIT=/path/cd-hit BLASTDBCMD=/path/ncbi-blast-2.4.0+/bin/blastdbcmd BLAST_DB=/path/ncbi_db/nr --prefix=/path/provean-1.1.5/
        $ make
        $ make install
        $ export PATH="/path/provean-1.1.5/bin:$PATH"
